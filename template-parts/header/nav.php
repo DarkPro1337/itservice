@@ -16,7 +16,7 @@
       </ul>
 
       <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary">Заявка на поддержку</button>
+        <button type="button" class="btn btn-outline-primary border-2">Заявка на поддержку</button>
       </div>
     </header>
 </div>
