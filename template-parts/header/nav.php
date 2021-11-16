@@ -6,18 +6,17 @@
  */
 ?>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white" aria-label="Eighth navbar example">
-    <div class="container">
-      <a class="navbar-brand" href="#">ИТ Сервис</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <img src="<?php echo get_parent_theme_file_uri( 'assets/img/logo.svg' );?>" alt="" width="180" height="40">
+      </a>
 
-      <div class="collapse navbar-collapse" id="navbarsExample07">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          
-        </ul>
-        <button class="btn btn-primary">Заявка на поддержку</button>
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+      </ul>
+
+      <div class="col-md-3 text-end">
+        <button type="button" class="btn btn-outline-primary">Заявка на поддержку</button>
       </div>
-    </div>
-</nav>
+    </header>
+</div>
