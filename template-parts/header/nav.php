@@ -4,6 +4,10 @@
  * 
  * @package ITService
  */
+
+$menu_class = \ITSERVICE_THEME\Inc\Menus::get_instance();
+$header_menu_id = $menu_class->get_menu_id('itservice-header-menu');
+$header_menus = wp_get_nav_menu_items($header_menu_id);
 ?>
 
 <div class="container py-3 border-bottom mb-4">
@@ -18,7 +22,6 @@
           } else {
               echo '<h1>' . get_bloginfo('name') . '</h1>';
           }
-          //<img src="echo get_parent_theme_file_uri( 'assets/img/logo-alt.svg' );" alt="" width="180" height="40">
         ?>
         
       </a>
@@ -27,7 +30,25 @@
       </ul>
 
       <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary border-2">Заявка на поддержку</button>
+        <?php
+        if (!empty($header_menus) && is_array($header_menus)) {
+          foreach($header_menus as $menu_item) {
+            if(!$menu_item->menu_item_parent) {
+              $child_menu_items = $menu_class->get_child_menu_items($header_menus, $menu_item->ID);
+              $has_children = !empty($child_menu_items) && is_array($child_menu_items);
+
+              if(!$has_children) {
+                ?>
+                  <a href="<?php echo esc_url($menu_item->url)?>"><button type="button" class="btn btn-outline-primary border-2 me-1"><?php echo esc_html($menu_item->title) ?></button></a>
+                <?php
+              } else {
+
+              }
+            }
+          }
+        }
+        //
+        ?>
       </div>
     </header>
 </div>

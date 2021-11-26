@@ -5,7 +5,7 @@
         url('/wp-content/themes/itservice/fonts/subset-ViennaConvention2.woff2') format('woff2'),
         url('/wp-content/themes/itservice/fonts/subset-ViennaConvention2.woff') format('woff'),
         url('/wp-content/themes/itservice/fonts/subset-ViennaConvention2.ttf') format('truetype'),
-        url('/wp-content/themes/itservice/fonts/subset-ViennaConvention2.svg') format('svg');
+        url('/wp-content/themes/itservice/images/subset-ViennaConvention2.svg#ViennaConvention2') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -18,7 +18,7 @@
         url('/wp-content/themes/itservice/fonts/subset-VIennaConvention3.woff2') format('woff2'),
         url('/wp-content/themes/itservice/fonts/subset-VIennaConvention3.woff') format('woff'),
         url('/wp-content/themes/itservice/fonts/subset-VIennaConvention3.ttf') format('truetype'),
-        url('/wp-content/themes/itservice/fonts/subset-VIennaConvention3.svg') format('svg');
+        url('/wp-content/themes/itservice/images/subset-VIennaConvention3.svg#VIennaConvention3') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
