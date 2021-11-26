@@ -4,10 +4,10 @@
  * 
  * @package ITService
  */
-
+/*
 $menu_class = \ITSERVICE_THEME\Inc\Menus::get_instance();
 $header_menu_id = $menu_class->get_menu_id('itservice-header-menu');
-$header_menus = wp_get_nav_menu_items($header_menu_id);
+$header_menus = wp_get_nav_menu_items($header_menu_id);*/
 ?>
 
 <div class="container py-3 border-bottom mb-4">
@@ -30,7 +30,9 @@ $header_menus = wp_get_nav_menu_items($header_menu_id);
       </ul>
 
       <div class="col-md-3 text-end">
+      <a href="#contact"><button type="button" class="btn btn-outline-primary border-2 me-1">Заявка на поддержку</button></a>
         <?php
+        /* 
         if (!empty($header_menus) && is_array($header_menus)) {
           foreach($header_menus as $menu_item) {
             if(!$menu_item->menu_item_parent) {
@@ -48,6 +50,7 @@ $header_menus = wp_get_nav_menu_items($header_menu_id);
           }
         }
         //
+        */
         ?>
       </div>
     </header>

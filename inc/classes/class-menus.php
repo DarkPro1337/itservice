@@ -30,7 +30,7 @@ class Menus {
             ]
         );
     }
-
+    /*
     public function get_menu_id($location) {
         $locations = get_nav_menu_locations();
         $menu_id = $locations[$location];
@@ -49,5 +49,5 @@ class Menus {
         }
 
         return $child_menus;
-    }
+    }*/
 }

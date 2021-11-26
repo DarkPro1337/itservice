@@ -6,11 +6,14 @@
  */
 ?>
 
+
 <div class="p-3 bg-secondary bg-gradient mb-4 bg-cover">
     <div class="container py-5 px-3">
         <div class="row">
             <div class="col-md-6">
-                <h4 class="fs-1 text-light">Бесплатно проверим<br>вашу компанию<br>на наличие слабых мест<br>в ИТ-обеспечении</h4><br>
+                <a name="contact">
+                    <h4 class="fs-1 text-light">Бесплатно проверим<br>вашу компанию<br>на наличие слабых мест<br>в ИТ-обеспечении</h4><br>
+                </a>
             </div>
             <div class="col-md-6">
                 <form class="bg-light p-4 rounded-3" method="POST" action="https://formspree.io/f/xwkyelgd">
