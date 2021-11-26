@@ -9,7 +9,7 @@
 <div class="container mb-4 border-bottom">
     <h3>Все Информационно-Технологические услуги в одной компании</h3><br>
     <div class="row features">
-            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card shadow">
                     <div class="card-body">
                         <div class="col d-flex align-items-start">
@@ -25,7 +25,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card shadow">
                     <div class="card-body">
                         <div class="col d-flex align-items-start">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card shadow">
                     <div class="card-body">
                     <div class="col d-flex align-items-start">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card shadow">
                     <div class="card-body">
                     <div class="col d-flex align-items-start">
@@ -70,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card shadow">
                     <div class="card-body">
                     <div class="col d-flex align-items-start">
@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="col-md-6 col-lg-4 mb-4">
                 <div class="card shadow">
                     <div class="card-body">
                     <div class="col d-flex align-items-start">
