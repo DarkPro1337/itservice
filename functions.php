@@ -47,6 +47,17 @@ function crb_attach_theme_options() {
         Field::make( 'header_scripts', 'crb_header_script', 'Скрипты заголовка' ),
         Field::make( 'footer_scripts', 'crb_footer_script', 'Скрипты подвала' ),
     ) );
+
+    Container::make( 'post_meta', 'Настройки страницы' )
+		->where( 'post_type', '=', 'page' )
+        ->where( 'post_template', '=', 'front-page.php' )
+		->add_fields( array(
+ 
+		Field::make( 'text', 'hero_title', 'Hero: заголовок' ),
+        Field::make( 'text', 'hero_subtitle', 'Hero: подзаголовок' ),
+        Field::make( 'text', 'hero_button_title', 'Hero: текст кнопки' ),
+        Field::make( 'text', 'hero_button_link', 'Hero: ссылка на кнопке' ),
+	) );
 }
 
 add_action( 'after_setup_theme', 'crb_load' );
